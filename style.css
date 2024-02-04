@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% da altura da viewport */
+    margin: 0;     /* Remover margens padrão do body */
+}
+
+#quadrado1 {
+    width: 300px;   /* Largura desejada da div */
+    height: 300px;  /* Altura desejada da div */
+    background-color: rgb(223, 223, 223);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 4px  rgba(0, 0, 0, 0.5);
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+    margin-bottom: 3.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#insiraCPF, #message{
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+#inputCPF{
+    display: flex;
+    justify-content: center;
+    margin-left: 4rem;
+    background-color: rgb(200, 200, 200);
+    border: none;
+    border-left: solid 3px blue; 
+}
+
+#botao-verificar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6.6rem;
+    height: 3rem;
+    width: 6rem;
+    box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: blue;
+}
+
+#message{
+    color: red;
+    font-weight: 700;
+}
+
+
